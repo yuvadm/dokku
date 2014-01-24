@@ -1,0 +1,9 @@
+[submodule "plugins/supervisord"]
+	path = plugins/supervisord
+	url = https://github.com/statianzo/dokku-supervisord
+[submodule "plugins/redis"]
+	path = plugins/redis
+	url = https://github.com/luxifer/dokku-redis-plugin
+[submodule "plugins/postgresql"]
+	path = plugins/postgresql
+	url = https://github.com/jeffutter/dokku-postgresql-plugin
