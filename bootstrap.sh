@@ -17,6 +17,8 @@ apt-get install -y git make curl software-properties-common
 cd ~ && test -d dokku || git clone $DOKKU_REPO
 cd dokku
 git fetch origin
+git submodule init
+git submodule update
 
 if [[ -n $DOKKU_BRANCH ]]; then
   git checkout origin/$DOKKU_BRANCH
